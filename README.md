@@ -12,11 +12,34 @@ In this project, the Kaggle Chest X-Ray Images (Pneumonia) dataset was used. The
 -   Creating and Saving a Model
 -   Making Predictions 
 
+## 📦 Project structure
+```
+.
+├── README.md
+├── chest_xray
+│   └── chest_xray
+│       ├── test
+│       │   ├── NORMAL
+│       │   └── PNEUMONIA
+│       ├── train
+│       │   ├── NORMAL
+│       │   └── PNEUMONIA
+│       └── val
+│           ├── NORMAL
+│           └── PNEUMONIA
+├── cnn_model.keras
+├── lung_300.jpg
+├── main.ipynb
+└── main.py
+
+```
 
 ## About Model
 
 While developing the CNN model, the Keras and TensorFlow libraries were used.
+```
 Test Accuracy = 0.754808  
 Loss = 1.151425 
+```
 
 
